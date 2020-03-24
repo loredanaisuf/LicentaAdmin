@@ -13,46 +13,60 @@
 <body style="background-color:#660020 " >
  <!-- style="background-image: url('./bg2.jpg');" -->
 <div class="container">
-    <div class="row" style="align-items: center; margin-top: 10px;">
-        <div class="col-sm-3">
-           <!-- <h1 style="align-items: center; flex-direction: row; color: #660020;">Logare</h2> -->
-        </div>
+    <div class="row" style="align-items: center; margin-top: 100px;">
+    
         <div class="col-sm-6" style="background-color: #f2f2f2;" >
-            <h1 style="text-align: center; color: #660020; margin-top: 60px;">~Adaugare Masina~</h2>
+            <h1 style="text-align: center; color: #660020; margin-top: 60px; margin-right: 5px;">~Adaugare Masina~</h2>
             <div style="align-items: center; background-color: #f2f2f2;">
                 <form method="post">
                     <div class="form-group">
-                        <label for="utilizator" style="margin-top: 30px;">Marca</label>
-                        <input type="text"class="form-control" id="utilizator"  name="numeUtilizator" aria-describedby="emailHelp">
+                        <label for="nrInmatriculare" style="margin-top: 30px;">Numarul de inmatriculare</label>
+                        <input type="text"class="form-control" id="nrInmatriculare"  name="nrInmatriculareMasina" aria-describedby="emailHelp">
                     </div>
                     <div class="form-group">
-                        <label for="utilizator">Numarul de inmatriculare</label>
-                        <input type="text"class="form-control" id="utilizator"  name="numeUtilizator" aria-describedby="emailHelp">
+                        <label for="marca">Marca</label>
+                        <input type="text"class="form-control" id="marca"  name="marcaMasina" aria-describedby="emailHelp">
                     </div>
                     <div class="form-group">
-                        <label for="utilizator" >ITP valabil pana </label>
-                        <input type="date"class="form-control" id="utilizator"  name="numeUtilizator" aria-describedby="emailHelp">
+                        <label for="an">Anul fabricatiei</label>
+                        <input type="text"class="form-control" id="an"  name="anMasina" aria-describedby="emailHelp">
                     </div>
                     <div class="form-group">
-                        <label for="utilizator" >Asigurare RCA valabila pana</label>
-                        <input type="date"class="form-control" id="utilizator"  name="numeUtilizator" aria-describedby="emailHelp">
+                        <label for="nrInmatriculareR" >Numarul de inmatriculare remorca</label>
+                        <input type="text"class="form-control" id="nrInmatriculareR"  name="nrInmatriculareRemorca" aria-describedby="emailHelp">
                     </div>
-                    <div class="form-group">
-                        <label for="parola">Rovignieta valabila pana</label>
-                        <input type="date" class="form-control" id="parola" name="parolaUtilizator">
-                    </div>
-            
-                   <!-- <button type="submit" class="btn btn-primary" style="margin-bottom: 60px;">${requestScope.UserToEdit eq null ? 'Adauga' : 'Edit'}</button> -->
-                   <button type="button" style="background-color: #660020; width: 300px; color:white; padding: 10px; margin: 20px; align-items: center; margin-bottom: 90px;" >Adauga</button>
-              
+                    
                 </form>
             </div>
-
-            <div class="col-sm-3">
-                <!-- <h1 style="align-items: center; flex-direction: row; color: #660020;">Logare</h2> -->
-             </div>
-            
         </div>
+
+        <div class="col-sm-6">
+            <div style="align-items: center; background-color: #f2f2f2;  padding: 15px;">
+                <form method="post">
+                    <div class="form-group">
+                        <label for="itp"style="margin-top: 30px;" >ITP valabil pana </label>
+                        <input type="date"class="form-control" id="itp"  name="itpMasina" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                        <label for="rca" >Asigurare RCA valabila pana</label>                            
+                        <input type="date"class="form-control" id="rca"  name="rcaMasina" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                        <label for="casco" >Asigurare CASCO valabila pana</label>
+                        <input type="date"class="form-control" id="casco"  name="cascoMasina" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                        <label for="rovignieta">Rovignieta valabila pana</label>
+                        <input type="date" class="form-control" id="rovignieta" name="rovignietaMasina">
+                    </div>
+                
+                  <!-- <button type="submit" class="btn btn-primary" style="margin-bottom: 60px;">${requestScope.UserToEdit eq null ? 'Adauga' : 'Edit'}</button> -->
+                   <button type="button" style="background-color: #660020; width: 300px; color:white; padding: 10px; margin: 20px; align-items: center; margin-bottom: 90px;" >Adauga</button>
+                  
+                </form>
+            </div>
+         </div>      
+    
     </div>
     
 </div>
