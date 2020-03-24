@@ -1,3 +1,7 @@
+ro\siit\model\Masina.class
+ro\siit\service\ServiceMasina.class
+ro\siit\service\ServiceRemorca.class
 ro\siit\service\ServiceUtilizator.class
+ro\siit\model\Remorca.class
 ro\siit\servlet\UtilizatoriServlet.class
 ro\siit\model\Utilizator.class

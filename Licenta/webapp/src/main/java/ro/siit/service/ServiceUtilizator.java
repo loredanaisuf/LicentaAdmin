@@ -9,7 +9,7 @@ import java.util.UUID;
 
 public class ServiceUtilizator {
 
-    private Connection connection;
+    protected Connection connection;
     public ServiceUtilizator() {
         try {
             Class.forName("org.postgresql.Driver");
@@ -43,7 +43,7 @@ public class ServiceUtilizator {
         try {
             PreparedStatement ps = connection.prepareStatement("INSERT INTO utilizatori(id_utilizator, id_masina, nume, prenume, telefon, email, parola) VALUES (?, ?, ?, ?,?,?,?)");
             ps.setObject(1, utilizator.getId());
-            ps.setString(2,utilizator.getId_masina());
+            ps.setString(2, utilizator.getId_masina());
             ps.setString(3, utilizator.getNume());
             ps.setString(4, utilizator.getPrenume());
             ps.setString(5, utilizator.getTelefon());

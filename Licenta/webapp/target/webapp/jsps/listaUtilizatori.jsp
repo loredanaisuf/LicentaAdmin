@@ -18,7 +18,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Utilizatori</title>
 </head>
 <body>
@@ -74,11 +74,11 @@
         <table class="table table-striped" style="margin-top: 40px;">
             <thead class=".thead-dark">
             <tr>
-                <th scope="col">#</th>
+                <th scope="col">Id</th>
                 <th scope="col">Nume</th>
                 <th scope="col">Prenume</th>
                 <th scope="col">Telefon</th>
-                <th scope="col">Nr innmatriculare masina</th>
+                <th scope="col">NrInmatriculareM</th>
                 <th scope="col">Email</th>
                 <th scope="col">Parola</th>
                 <th scope="col">Handle</th>
@@ -95,11 +95,12 @@
                     <td>${utilizator.email}</td>
                     <td>${utilizator.parola}</td>
                     <td>
-                       <!-- <button type="button" class="btn btn-success" onclick="window.location.href='?action=edit&id=${utilizator.id}'">Edit</button> -->>
-                        <a href="?action=edit&id=${utilizator.id} "data-toggle="tooltip" title="Editeaza"><span class="glyphicon glyphicon-edit"></span>
-                        <a href="?action=delete&id=${utilizator.id}">
+                       <!-- <button type="button" class="btn btn-success" onclick="window.location.href='?action=edit&id=${utilizator.id}'">Edit</button> -->
+                        <a href="?action=edit&id=${utilizator.id} "data-toggle="tooltip" title="Editeaza" style="color: rgba(0, 0, 0, 0.54); "><span class="material-icons">edit</span> </a>
+                        <a href="?action=delete&id=${utilizator.id} "data-toggle="tooltip" title="Sterge" style="color: rgba(0, 0, 0, 0.54); "><span class="material-icons">delete</span></a>
+                        <!--<a href="?action=delete&id=${utilizator.id}">
                             <button type="button" class="btn btn-danger">Delete</button>
-                        </a>
+                        </a> -->
 
                     </td>
                 </tr>

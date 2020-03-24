@@ -27,7 +27,7 @@
             <!-- <h1 style="align-items: center; flex-direction: row; color: #660020;">Logare</h2> -->
         </div>
         <div class="col-sm-6" style="background-color: #f2f2f2;" >
-            <h1 style="text-align: center; color: #660020; margin-top: 30px;">~Adaugare Angajat~</h2>
+            <h1 style="text-align: center; color: #660020; margin-top: 30px;">~Adaugare Angajat~</h1>
                 <div style="align-items: center; background-color: #f2f2f2;">
                     <form method="post">
                         <div class="form-group">
@@ -56,7 +56,7 @@
                         </div>
 
                         <!-- <button type="button" class="btn btn-primary" style="margin-bottom: 60px;">${requestScope.UserToEdit eq null ? 'Adauga' : 'Edit'}</button> -->
-                        <button type="submit" style="background-color: #660020; width: 300px; color:white; padding: 10px; margin: 20px; align-items: center; margin-bottom: 50px;" >${requestScope.UserToEdit eq null ? 'Adauga' : 'Edit'}</button>
+                        <button type="submit" style="background-color: #660020; width: 300px; color:white; padding: 10px; margin: 20px; align-items: center; margin-bottom: 50px;" >${requestScope.UserToEdit eq null ? 'Adauga' : 'Editeaza'}</button>
 
                     </form>
                 </div>

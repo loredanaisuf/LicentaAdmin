@@ -11,6 +11,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package.json" />
         <option value="Class" />
         <option value="Jsp File" />
       </list>
@@ -27,13 +28,14 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/JavaHomeworkWeek7" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -92,7 +94,24 @@
       <workItem from="1584812996619" duration="650000" />
       <workItem from="1584909439438" duration="1791000" />
       <workItem from="1584911255112" duration="1788000" />
-      <workItem from="1584913067375" duration="1101000" />
+      <workItem from="1584913067375" duration="1737000" />
+      <workItem from="1584915387534" duration="481000" />
+      <workItem from="1584994226818" duration="1395000" />
+      <workItem from="1585000430421" duration="1442000" />
+      <workItem from="1585002645864" duration="1705000" />
+      <workItem from="1585004450183" duration="1363000" />
+      <workItem from="1585043621195" duration="1769000" />
+      <workItem from="1585045423925" duration="1787000" />
+      <workItem from="1585047332588" duration="1955000" />
+      <workItem from="1585050733812" duration="1789000" />
+      <workItem from="1585052546880" duration="927000" />
+      <workItem from="1585058824095" duration="1785000" />
+      <workItem from="1585060635911" duration="1796000" />
+      <workItem from="1585069496819" duration="599000" />
+      <workItem from="1585079025832" duration="1875000" />
+      <workItem from="1585080985707" duration="1786000" />
+      <workItem from="1585082799585" duration="1785000" />
+      <workItem from="1585084611177" duration="691000" />
     </task>
     <servers />
   </component>
