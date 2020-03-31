@@ -28,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/JavaHomeworkWeek7" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/JavaHomeworkWeek5" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -112,6 +112,7 @@
       <workItem from="1585080985707" duration="1786000" />
       <workItem from="1585082799585" duration="1785000" />
       <workItem from="1585084611177" duration="691000" />
+      <workItem from="1585172016738" duration="34000" />
     </task>
     <servers />
   </component>
