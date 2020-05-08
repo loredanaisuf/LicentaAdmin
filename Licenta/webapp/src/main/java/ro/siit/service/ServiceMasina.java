@@ -1,6 +1,6 @@
 package ro.siit.service;
 
-import javafx.scene.input.DataFormat;
+
 import ro.siit.model.Masina;
 
 import java.sql.*;
@@ -25,15 +25,14 @@ public class ServiceMasina extends ServiceUtilizator {
 
     public void addCar(Masina masina){
         try {
-            PreparedStatement ps = connection.prepareStatement("INSERT INTO masini(numar_inmatriculare, marca, anul_fabricatiei, numar_inmatriculare_remorca,itp, asigurare_rca, asigurare_casco, rovignieta) VALUES (?,?,?,?,?,?,?,?)");
+            PreparedStatement ps = connection.prepareStatement("INSERT INTO masini(numar_inmatriculare, marca, anul_fabricatiei,itp, asigurare_rca, asigurare_casco, rovignieta) VALUES (?,?,?,?,?,?,?)");
             ps.setString(1, masina.getNrInmatriculare());
             ps.setString(2, masina.getMarca());
-            ps.setString(3, masina.getAnulFabricatiei());
-            ps.setString(4, masina.getNrInmatriculareRemorca());
-            ps.setDate(5, getDate(masina.getItp()));
-            ps.setDate(6, getDate(masina.getRca()));
-            ps.setDate(7, getDate(masina.getCasco()));
-            ps.setDate(8, getDate(masina.getRovignieta()));
+            ps.setInt(3, masina.getAnulFabricatiei());
+            ps.setDate(4, getDate(masina.getItp()));
+            ps.setDate(5, getDate(masina.getRca()));
+            ps.setDate(6, getDate(masina.getCasco()));
+            ps.setDate(7, getDate(masina.getRovignieta()));
             ps.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
@@ -58,7 +57,7 @@ public class ServiceMasina extends ServiceUtilizator {
             ResultSet rs = st.executeQuery("SELECT * FROM masini");
 
             while(rs.next()){
-                masini.add(new Masina(rs.getString("numar_inmatriculare"), rs.getString("marca"), rs.getString("anul_fabricatiei"), rs.getString("numar_inmatriculare_remorca"), rs.getString("itp"), rs.getString("asigurare_rca"), rs.getString("asigurare_casco"), rs.getString("rovignieta")));
+                masini.add(new Masina(rs.getString("numar_inmatriculare"), rs.getString("marca"), rs.getInt("anul_fabricatiei"),  rs.getString("itp"), rs.getString("asigurare_rca"), rs.getString("asigurare_casco"), rs.getString("rovignieta")));
             }
 
         } catch (SQLException e) {
@@ -74,7 +73,7 @@ public class ServiceMasina extends ServiceUtilizator {
             ps.setString(1, nrInmatriculare);
             ResultSet rs = ps.executeQuery();
             rs.next();
-            return new Masina(rs.getString("numar_inmatriculare"), rs.getString("marca"), rs.getString("anul_fabricatiei"), rs.getString("numar_inmatriculare_remorca"), rs.getString("itp"), rs.getString("asigurare_rca"), rs.getString("asigurare_casco"), rs.getString("rovignieta"));
+            return new Masina(rs.getString("numar_inmatriculare"), rs.getString("marca"), rs.getInt("anul_fabricatiei"), rs.getString("itp"), rs.getString("asigurare_rca"), rs.getString("asigurare_casco"), rs.getString("rovignieta"));
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -83,15 +82,14 @@ public class ServiceMasina extends ServiceUtilizator {
 
     public void updateCar(Masina masina){
         try {
-            PreparedStatement ps = connection.prepareStatement("UPDATE masini SET marca = ?, anul_fabricatiei = ?, numar_inmatriculare_remorca = ?, itp = ?, asigurare_rca = ?, asigurare_casco = ? , rovignieta = ? WHERE numar_inmatriculare = ?");
-            ps.setString(8, masina.getNrInmatriculare());
+            PreparedStatement ps = connection.prepareStatement("UPDATE masini SET marca = ?, anul_fabricatiei = ?,  itp = ?, asigurare_rca = ?, asigurare_casco = ? , rovignieta = ? WHERE numar_inmatriculare = ?");
+            ps.setString(7, masina.getNrInmatriculare());
             ps.setString(1, masina.getMarca());
-            ps.setString(2, masina.getAnulFabricatiei());
-            ps.setString(3, masina.getNrInmatriculareRemorca());
-            ps.setDate(4, getDate(masina.getItp()));
-            ps.setDate(5, getDate(masina.getRca()));
-            ps.setDate(6, getDate(masina.getCasco()));
-            ps.setDate(7, getDate(masina.getRovignieta()));
+            ps.setInt(2, masina.getAnulFabricatiei());
+            ps.setDate(3, getDate(masina.getItp()));
+            ps.setDate(4, getDate(masina.getRca()));
+            ps.setDate(5, getDate(masina.getCasco()));
+            ps.setDate(6, getDate(masina.getRovignieta()));
             ps.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();

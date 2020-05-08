@@ -48,4 +48,17 @@ public class Utilizator {
     public String getParola() {
         return parola;
     }
+
+    @Override
+    public String toString() {
+        return "Utilizator{" +
+                "id=" + id +
+                ", nume='" + nume + '\'' +
+                ", prenume='" + prenume + '\'' +
+                ", telefon='" + telefon + '\'' +
+                ", id_masina='" + id_masina + '\'' +
+                ", email='" + email + '\'' +
+                ", parola='" + parola + '\'' +
+                '}';
+    }
 }

@@ -78,3 +78,16 @@
 --INSERT INTO utilizatori(id_utilizator, id_masina, nume, prenume, telefon, email, parola) VALUES ('d71de0e4-d088-48e8-8c09-ebcd81cfbe85', 'GJ88YIL', 'Stoiconiu', 'Marian', '0723458129', 'miti_s@yahoo.com', 'Miti@')
 
 SELECT * FROM utilizatori
+
+---------------------------UPDATE------------------------
+
+ CREATE TABLE masini(
+    	numar_inmatriculare VARCHAR(10) NOT NULL,
+    	marca VARCHAR(50),
+    	anul_fabricatiei INT,
+        itp DATE,
+        asigurare_rca DATE,
+        asigurare_casco DATE,
+        rovignieta DATE,
+    	PRIMARY KEY(numar_inmatriculare)
+);

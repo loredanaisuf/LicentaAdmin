@@ -1,7 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91049cd0-56b1-4a88-86d2-0068fa9a6d67" name="Default Changelist" comment="" />
+    <list default="true" id="91049cd0-56b1-4a88-86d2-0068fa9a6d67" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/siit/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/siit/model/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/siit/service/ServiceCalendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/siit/servlet/CalendarServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/siit/servlet/InregistrareServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/siit/servlet/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/siit/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/siit/servlet/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/siit/servlet/MasinaServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/siit/servlet/PontajServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/siit/servlet/RemorciServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsps/forms/Pontaj.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsps/forms/formInregistrare.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsps/forms/formLogare.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsps/includes/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsps/includes/jsp_jstl.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsps/includes/navbar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsps/includes/scripts_body.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsps/lists/calendar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/fullcalendar/core/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/dates.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/register_try.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/script_calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ro/siit/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BazaDeDate.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../BazaDeDate.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/adaugareAngajat.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front-end/adaugareAngajat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/adaugareMasina.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front-end/adaugareMasina.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/logare.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front-end/logare.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/primaPag.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front-end/primaPag.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/siit/model/Masina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/siit/model/Masina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/siit/model/Remorca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/siit/model/Remorca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/siit/model/Utilizator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/siit/model/Utilizator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/siit/service/ServiceMasina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/siit/service/ServiceMasina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/siit/service/ServiceRemorca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/siit/service/ServiceRemorca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/siit/service/ServiceUtilizator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/siit/service/ServiceUtilizator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/siit/servlet/UtilizatoriServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/siit/servlet/UtilizatoriServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsps/formMasina.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsps/forms/formMasina.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsps/formRemorca.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsps/forms/formRemorca.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsps/formUtilizator.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsps/forms/formUtilizator.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsps/listaMasini.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsps/lists/listaMasini.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsps/listaRemorci.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsps/lists/listaRemorci.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsps/listaUtilizatori.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsps/lists/listaUtilizatori.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/siit/model/Masina.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/siit/model/Masina.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/siit/model/Remorca.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/siit/model/Remorca.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/siit/model/Utilizator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/siit/model/Utilizator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/siit/service/ServiceMasina.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/siit/service/ServiceMasina.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/siit/service/ServiceRemorca.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/siit/service/ServiceRemorca.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/siit/service/ServiceUtilizator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/siit/service/ServiceUtilizator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/siit/servlet/UtilizatoriServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/siit/servlet/UtilizatoriServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ro/siit/model/Masina.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ro/siit/model/Masina.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ro/siit/model/Remorca.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ro/siit/model/Remorca.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ro/siit/model/Utilizator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ro/siit/model/Utilizator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ro/siit/service/ServiceMasina.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ro/siit/service/ServiceMasina.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ro/siit/service/ServiceRemorca.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ro/siit/service/ServiceRemorca.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ro/siit/service/ServiceUtilizator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ro/siit/service/ServiceUtilizator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ro/siit/servlet/UtilizatoriServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ro/siit/servlet/UtilizatoriServlet.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,10 +79,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -25,10 +95,12 @@
     </option>
   </component>
   <component name="ProjectId" id="1Z4xiBOpqBhxmTJGqEjH2YPs1Ns" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/JavaHomeworkWeek5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../JavaHomeworkWeek12" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -36,9 +108,16 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Loredana Isuf\Documents\GitHub\LicentaAdmin\Licenta\webapp\src\main\webapp\jsps\lists" />
+      <recent name="C:\Users\Loredana Isuf\Documents\GitHub\LicentaAdmin\Licenta\webapp\src\main\webapp\jsps\forms" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -51,6 +130,76 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="JUnit.AppTest.copyWebapp">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ro.siit.Main" />
+      <module name="webapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ro.siit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ro.siit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ro.siit" />
+      <option name="MAIN_CLASS_NAME" value="ro.siit.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.copyWebapp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ro.siit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ro.siit" />
+      <option name="MAIN_CLASS_NAME" value="ro.siit.AppTest" />
+      <option name="METHOD_NAME" value="copyWebapp" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.copyWebappLocal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ro.siit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ro.siit" />
+      <option name="MAIN_CLASS_NAME" value="ro.siit.AppTest" />
+      <option name="METHOD_NAME" value="copyWebappLocal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AppTest.copyWebapp" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.AppTest.copyWebappLocal" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -113,10 +262,89 @@
       <workItem from="1585082799585" duration="1785000" />
       <workItem from="1585084611177" duration="691000" />
       <workItem from="1585172016738" duration="34000" />
+      <workItem from="1587998227948" duration="1759000" />
+      <workItem from="1588000075810" duration="1270000" />
+      <workItem from="1588009885401" duration="914000" />
+      <workItem from="1588015155207" duration="1784000" />
+      <workItem from="1588016971928" duration="1561000" />
+      <workItem from="1588081490118" duration="1878000" />
+      <workItem from="1588086294261" duration="1440000" />
+      <workItem from="1588088156051" duration="1541000" />
+      <workItem from="1588089733740" duration="94000" />
+      <workItem from="1588089885066" duration="1778000" />
+      <workItem from="1588091699323" duration="1782000" />
+      <workItem from="1588093512636" duration="1784000" />
+      <workItem from="1588103325284" duration="1783000" />
+      <workItem from="1588105329673" duration="599000" />
+      <workItem from="1588107366672" duration="599000" />
+      <workItem from="1588192125476" duration="1831000" />
+      <workItem from="1588195647990" duration="787000" />
+      <workItem from="1588246059895" duration="1710000" />
+      <workItem from="1588261382025" duration="692000" />
+      <workItem from="1588410638136" duration="1745000" />
+      <workItem from="1588412436977" duration="1791000" />
+      <workItem from="1588414328691" duration="1789000" />
+      <workItem from="1588416140882" duration="1787000" />
+      <workItem from="1588417951326" duration="435000" />
+      <workItem from="1588418614725" duration="443000" />
+      <workItem from="1588420427523" duration="1798000" />
+      <workItem from="1588422261964" duration="1800000" />
+      <workItem from="1588424229994" duration="336000" />
+      <workItem from="1588431107192" duration="1784000" />
+      <workItem from="1588432923517" duration="1779000" />
+      <workItem from="1588434731029" duration="1387000" />
+      <workItem from="1588436556664" duration="1087000" />
+      <workItem from="1588528391120" duration="908000" />
+      <workItem from="1588601744756" duration="1748000" />
+      <workItem from="1588603901128" duration="1943000" />
+      <workItem from="1588607475124" duration="1784000" />
+      <workItem from="1588609288871" duration="1789000" />
+      <workItem from="1588611225000" duration="1497000" />
+      <workItem from="1588613035763" duration="160000" />
+      <workItem from="1588614853535" duration="1781000" />
+      <workItem from="1588616668375" duration="1885000" />
+      <workItem from="1588618608194" duration="1811000" />
+      <workItem from="1588620539396" duration="2135000" />
+      <workItem from="1588622923654" duration="1644000" />
+      <workItem from="1588698219851" duration="910000" />
+      <workItem from="1588700030616" duration="1791000" />
+      <workItem from="1588701843982" duration="1745000" />
+      <workItem from="1588703732925" duration="1917000" />
+      <workItem from="1588705769606" duration="625000" />
+      <workItem from="1588708549448" duration="1790000" />
+      <workItem from="1588710364581" duration="972000" />
+      <workItem from="1588793067816" duration="1783000" />
+      <workItem from="1588794913770" duration="708000" />
+      <workItem from="1588798266984" duration="1744000" />
+      <workItem from="1588800168481" duration="1510000" />
+      <workItem from="1588858314750" duration="1564000" />
+      <workItem from="1588860135036" duration="1800000" />
+      <workItem from="1588862396878" duration="1084000" />
+      <workItem from="1588865934625" duration="1792000" />
+      <workItem from="1588867768232" duration="1044000" />
+      <workItem from="1588872272167" duration="1043000" />
+      <workItem from="1588882526369" duration="1600000" />
+      <workItem from="1588932795349" duration="1779000" />
+      <workItem from="1588934608019" duration="1545000" />
+      <workItem from="1588937218701" duration="1543000" />
+      <workItem from="1588943670103" duration="723000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -3,18 +3,16 @@ package ro.siit.model;
 public class Masina {
     private String nrInmatriculare;
     private String marca;
-    private String anulFabricatiei;
-    private String nrInmatriculareRemorca;
-    private String itp;
-    private String rca;
-    private String casco;
-    private String rovignieta;
+    private Integer anulFabricatiei;
+    private String itp = "05/21/2020";
+    private String rca = "05/21/2020";
+    private String casco = "05/21/2020";
+    private String rovignieta = "05/21/2020";
 
-    public Masina(String nrInmatriculare, String marca, String anulFabricatiei, String nrInmatriculareRemorca, String itp, String rca, String casco, String rovignieta) {
+    public Masina(String nrInmatriculare, String marca, Integer anulFabricatiei, String itp, String rca, String casco, String rovignieta) {
         this.nrInmatriculare = nrInmatriculare;
         this.marca = marca;
         this.anulFabricatiei = anulFabricatiei;
-        this.nrInmatriculareRemorca = nrInmatriculareRemorca;
         this.itp = itp;
         this.rca = rca;
         this.casco = casco;
@@ -29,12 +27,8 @@ public class Masina {
         return marca;
     }
 
-    public String getAnulFabricatiei() {
+    public Integer getAnulFabricatiei() {
         return anulFabricatiei;
-    }
-
-    public String getNrInmatriculareRemorca() {
-        return nrInmatriculareRemorca;
     }
 
     public String getItp() {

@@ -1,12 +1,11 @@
 <%--
   Created by IntelliJ IDEA.
   User: Loredana Isuf
-  Date: 3/24/2020
-  Time: 10:35 PM
+  Date: 4/27/2020
+  Time: 11:05 PM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 <!doctype html>
 <html lang="en">
 <head>
@@ -17,43 +16,36 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>Adaugare</title>
+    <title>Logare</title>
 </head>
 <body style="background-color:#660020 " >
 <!-- style="background-image: url('./bg2.jpg');" -->
 <div class="container">
-    <div class="row" style="align-items: center; margin-top: 10px;">
+    <div class="row" style="align-items: center; margin-top: 100px;">
         <div class="col-sm-3">
             <!-- <h1 style="align-items: center; flex-direction: row; color: #660020;">Logare</h2> -->
         </div>
-        <div class="col-sm-6" style="background-color: #f2f2f2; margin-top: 100px;" >
-            <h1 style="text-align: center; color: #660020; margin-top: 30px;">~Adaugare Remorca~</h1>
+        <div class="col-sm-6" style="background-color: #f2f2f2;" >
+            <h2 style="text-align: center; color: #660020; margin-top: 60px;">~Logare~</h2>
                 <div style="align-items: center; background-color: #f2f2f2;">
                     <form method="post">
                         <div class="form-group">
-                            <label for="nrInmatriculare" style="margin-top: 30px;" >Numarul de inmatriculare</label>
-                            <input type="text"class="form-control" id="nrInmatriculare"  name="nrInmatriculareRemorca" aria-describedby="emailHelp" value="${requestScope.TrailToEdit.idRemorca}">
+                            <label for="utilizator" style="margin-top: 30px;" >Email</label>
+                            <input type="text"class="form-control" id="utilizator"  name="numeUtilizator" aria-describedby="emailHelp">
                         </div>
                         <div class="form-group">
-                            <label for="anFabricatie" style="color: black;">Anul fabricatiei</label>
-                            <input type="text"class="form-control" id="anFabricatie"  name="anFabricatieRemorca" aria-describedby="emailHelp" value="${requestScope.TrailToEdit.anulFabricatiei}">
-                        </div>
-                        <div class="form-group">
-                            <label for="itp">ITP valabil pana la</label>
-                            <input type="date"class="form-control" id="itp"  name="itpRemorca" aria-describedby="emailHelp" value="${requestScope.TrailToEdit.itp}">
+                            <label for="parola">Parola</label>
+                            <input type="text" class="form-control" id="parola" name="parolaUtilizator">
                         </div>
 
-
-                        <!-- <button type="button" class="btn btn-primary" style="margin-bottom: 60px;">${requestScope.TrailToEdit eq null ? 'Adauga' : 'Edit'}</button> -->
-                        <button type="submit" style="background-color: #660020; width: 300px; color:white; padding: 10px; margin: 20px; align-items: center; margin-bottom: 50px;" >${requestScope.TrailToEdit eq null ? 'Adauga' : 'Editeaza'}</button>
+                        <!-- <button type="submit" class="btn btn-primary" style="margin-bottom: 60px;">${requestScope.UserToEdit eq null ? 'Adauga' : 'Edit'}</button> -->
+                        <button type="submit" style="background-color: #660020; width: 300px; color:white; padding: 10px; margin: 20px; align-items: center; margin-bottom: 100px;" >Logare</button>
 
                     </form>
                 </div>
-
-                <div class="col-sm-3">
-                    <!-- <h1 style="align-items: center; flex-direction: row; color: #660020;">Logare</h2> -->
-                </div>
-
+        </div>
+        <div class="col-sm-3">
+            <!-- <h1 style="align-items: center; flex-direction: row; color: #660020;">Logare</h2> -->
         </div>
     </div>
 

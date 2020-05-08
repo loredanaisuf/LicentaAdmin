@@ -1,3 +1,11 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: Loredana Isuf
+  Date: 3/24/2020
+  Time: 12:00 AM
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!doctype html>
 <html lang="en">
 <head>
@@ -10,11 +18,11 @@
 
     <title>Adaugare</title>
 </head>
-<body style="background-color:f2f2f2 " >
- <!-- style="background-image: url('./bg2.jpg');" #660020 -->
+<body style="background-color: #f2f2f2 " >
+<!-- style="background-image: url('./bg2.jpg');" #660020 -->
 <div class="container" style="background-color: #f2f2f2;">
     <div class="row" style="align-items: center;">
-    
+
         <div class="col-sm-12" style="background-color: #660020;" >
             <h2 style="text-align: center;margin: 15px; color:white">~Adaugare Masina~</h2>
         </div>
@@ -25,45 +33,45 @@
                 <form method="post">
                     <div class="form-group">
                         <label for="nrInmatriculare" style="font-weight: bold; margin-top: 45px;">Numarul de inmatriculare</label>
-                        <input type="text"class="form-control" id="nrInmatriculare"  name="nrInmatriculareMasina" aria-describedby="emailHelp">
+                        <input type="text"class="form-control" id="nrInmatriculare"  name="nrInmatriculareMasina" placeholder="ex: GJ97YIL" value="${requestScope.CarToEdit.nrInmatriculare}">
                     </div>
                     <div class="form-group">
                         <label for="marca" style="font-weight: bold;">Marca</label>
-                        <input type="text"class="form-control" id="marca"  name="marcaMasina" aria-describedby="emailHelp">
+                        <input type="text"class="form-control" id="marca"  name="marcaMasina" placeholder="ex: VOLVO" value="${requestScope.CarToEdit.marca}">
                     </div>
                     <div class="form-group" style="font-weight: bold;">
                         <label for="an">Anul fabricatiei</label>
-                        <input type="text"class="form-control" id="an"  name="anMasina" aria-describedby="emailHelp">
+                        <input type="text"class="form-control" id="an"  name="anMasina" placeholder="YYYY" value="${requestScope.CarToEdit.anulFabricatiei}">
                     </div>
                     <div class="form-group" style="font-weight: bold;">
                         <label for="itp"style="" >ITP valabil pana </label>
-                        <input type="date"class="form-control" id="itp"  name="itpMasina" aria-describedby="emailHelp">
+                        <input type="date"class="form-control" id="itp"  name="itpMasina" aria-describedby="emailHelp" value="${requestScope.CarToEdit.itp}>
                     </div>
                     <div class="form-group">
-                        <label for="rca" style="font-weight: bold;">Asigurare RCA valabila pana</label>                            
-                        <input type="date"class="form-control" id="rca"  name="rcaMasina" aria-describedby="emailHelp">
+                        <label for="rca" style="font-weight: bold;">Asigurare RCA valabila pana</label>
+                        <input type="date"class="form-control" id="rca"  name="rcaMasina" aria-describedby="emailHelp" value="${requestScope.CarToEdit.rca}">
                     </div>
                     <div class="form-group">
                         <label for="casco"style="font-weight: bold;" >Asigurare CASCO valabila pana</label>
-                        <input type="date"class="form-control" id="casco"  name="cascoMasina" aria-describedby="emailHelp">
+                        <input type="date"class="form-control" id="casco"  name="cascoMasina" aria-describedby="emailHelp" value="${requestScope.CarToEdit.casco}">
                     </div>
                     <div class="form-group" style="font-weight: bold;">
                         <label for="rovignieta">Rovignieta valabila pana</label>
-                        <input type="date" class="form-control" id="rovignieta" name="rovignietaMasina">
+                        <input type="date" class="form-control" id="rovignieta" name="rovignietaMasina" value="${requestScope.CarToEdit.rovignieta}">
                     </div>
-                
-                  <!-- <button type="submit" class="btn btn-primary" style="margin-bottom: 60px;">${requestScope.UserToEdit eq null ? 'Adauga' : 'Edit'}</button> -->
-                   <button type="button" style="background-color: #660020; width: 300px; color:white; padding: 10px; margin: 20px; align-items: center; margin-bottom: 60px;" >Adauga</button>
-                  
-                    
+
+                     <button type="submit" class="btn btn-primary" style="background-color: #660020; width: 300px; color:white; padding: 10px; margin: 20px; align-items: center; margin-bottom: 60px;">${requestScope.UserToEdit eq null ? 'Adauga' : 'Edit'}</button>
+                    <!--<button type="button" style="background-color: #660020; width: 300px; color:white; padding: 10px; margin: 20px; align-items: center; margin-bottom: 60px;" >Adauga</button> -->
+
+
                 </form>
             </div>
         </div>
         <div class="col-sm-2" ></div>
-          
-    
+
+
     </div>
-    
+
 </div>
 
 <!-- Optional JavaScript -->

@@ -86,7 +86,7 @@ public class ServiceUtilizator {
         try {
             PreparedStatement ps = connection.prepareStatement("UPDATE utilizatori SET id_masina = ?, nume = ?, prenume = ?, telefon = ?, email = ?, parola = ?  WHERE id_utilizator = ?");
             ps.setObject(7, utilizator.getId());
-            ps.setString(1,utilizator.getId_masina());
+            ps.setString(1, utilizator.getId_masina());
             ps.setString(2, utilizator.getNume());
             ps.setString(3, utilizator.getPrenume());
             ps.setString(4, utilizator.getTelefon());
@@ -99,6 +99,45 @@ public class ServiceUtilizator {
         }
     }
 
+    public Utilizator checkCredentials(String username, String password){
+
+        try {
+            PreparedStatement ps = connection.prepareStatement("SELECT * FROM utilizatori WHERE email = ? AND parola = ?");
+            ps.setString(1, username);
+            ps.setString(2, password);
+
+            ResultSet rs = ps.executeQuery();
+            if(rs.next()){
+                return new Utilizator(UUID.fromString(rs.getObject(1).toString()), rs.getString(2), rs.getString(3), rs.getString(4), rs.getString(5), rs.getString(6), rs.getString(7));
+            } else {
+                return null;
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return null;
+    }
+
+    public boolean usernameExists(String username){
+        try {
+            PreparedStatement ps = connection.prepareStatement("SELECT * FROM utilizatori WHERE email = ?");
+            ps.setString(1, username);
+
+            ResultSet rs = ps.executeQuery();
+            if(rs.next()){
+                return true;
+            } else {
+                return false;
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return true;
+    }
     @Override
     protected void finalize() throws Throwable {
         this.connection.close();
